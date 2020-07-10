@@ -23,7 +23,7 @@ public class GreetingProvider {
     @Inject
     public GreetingProvider(@ConfigProperty(name = "app.greeting") String message) {
         this.message.set(messagessssssssssss);
-        System.out.println("hello from master22");
+       System.out.println("hello from branch");
     }
 
     String getMessage() {
